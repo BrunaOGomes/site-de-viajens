@@ -1,11 +1,21 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../site-de-viajens/fonts/Fjalla_One\,Montserrat\,Work_Sans/);
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  --background-primary-color: #ffffff;
-  --background-secondary-color: #f5f5f5;
-  --background-tertiary-color: #0000;
-  --botton-primary-color: #8F0101;
-  --botton-secondary-color: #b81515;
+  --primary-color: #ffffff;
+  --secondary-color: #f5f5f5;
+  --tertiary-color: #0000;
+  --primary-color: #8F0101;
+  --secondary-color: #b81515;
   --text-primary-color: #222222;
   --text-secondary-color: #ffffff;
+  --title-weight:700;
+  --text-weight:400;
+  --meno-text-weight:500;
 }
 
 /* CSS RESET */
