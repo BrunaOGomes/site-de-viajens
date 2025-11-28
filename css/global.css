@@ -57,7 +57,7 @@ h1 {
   height: 4px;
   border: none;
   background-color: var(--primary-color);
-  margin: 16px auto 32px;
+  margin-top: 16px auto 32px;
   border-radius: 16px;
 }
 .button {
