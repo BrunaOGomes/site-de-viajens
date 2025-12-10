@@ -1,0 +1,57 @@
+.hero-blog {
+  height: 400px;
+  width: 100%;
+  background: url(../img/bloghero-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.hero-content-blog {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-blog {
+    height: 620px;
+    background: url(../img/bloghero-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+  .hero-content-blog {
+    width: 580px;
+    height: 192px;
+    display: block;
+    color: var(--background-primary-color);
+  }
+  .hero-content-blog p {
+    font-size: 32px;
+    padding: 88px 60px;
+    margin: 0px;
+    font-weight: var(--text-weight);
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero-blog {
+    height: 620px;
+    background: url(../img/bloghero-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+  .hero-content-blog p {
+    padding: 88px 120px;
+  }
+  .hero-content-blog {
+    width: 580px;
+    height: 192px;
+    display: block;
+    color: var(--background-primary-color);
+  }
+  .hero-content-blog p {
+    padding: 88px 24px;
+    margin: 0px;
+    font-weight: var(--text-weight);
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+  }
+}

@@ -1,4 +1,4 @@
-header-destinations {
+.header-destinations {
   background-color: var(--background-tertiary-color);
   display: flex;
   flex-direction: row;
@@ -14,11 +14,11 @@ header-destinations {
   height: 64px;
 }
 
-.img-mobile {
+.logo-mobile {
   display: block;
 }
 
-.img-desktop {
+.logo-desktop {
   display: none;
 }
 .navigation-menu {
