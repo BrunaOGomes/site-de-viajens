@@ -1,4 +1,4 @@
-.header-destinations {
+.main-header {
   background-color: var(--background-tertiary-color);
   display: flex;
   flex-direction: row;
@@ -14,11 +14,11 @@
   height: 64px;
 }
 
-.logo-mobile {
+.img-mobile {
   display: block;
 }
 
-.logo-desktop {
+.img-desktop {
   display: none;
 }
 .navigation-menu {
@@ -51,6 +51,9 @@ nav {
   font-weight: var(--menu-text-weight);
   font-size: 24px;
 }
+.list-links li a.active {
+  text-decoration: underline;
+}
 
 @media screen and (min-width: 768px) {
   .navigation-menu {
@@ -76,7 +79,7 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  header {
+  .main-header {
     padding: 38px 120px;
   }
   .logo {
@@ -95,7 +98,7 @@ nav {
 }
 
 @media screen and (min-width: 1920px) {
-  header {
+  .main-header {
     padding: 38px 160px;
   }
 }

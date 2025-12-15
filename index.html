@@ -4,28 +4,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Jornada Viajens, uma agencia apaixonada por criar viajens inesquecíveis">
-  <meta name="og:title" content="Jornada Viajens">
-  <meta name="og:description" content="Jornada Viajens, uma agencia apaixonada por criar viajens inesquecíveis">
-  <meta name="og:image" content="./img/Logo-jornada-viajens.png">
-  <meta name="og:type" content="website">
-  <meta name="og:url" content="index.html">
-  <link rel="icon" href="./img/Logo-provisória-branca 1.png" type="xml/svg" />
+  <meta name="description" content="Jornada Viagens,uma agência apaixonada por criar viagens inesquecíveis" />
+
+  <meta name="og:title" content="Jornada Viagens" />
+  <meta name="og:description" content="Jornada Viagens,uma agência apaixonada por criar viagens inesquecíveis" />
+  <meta name="og:image" content="https://BrunaOGomes.github.io/site-de-viagens/img/logo-footer.png" />
+  <meta name="og:type" content="website" />
+  <meta name="og:url" content="https://BrunaOGomes.github.io/site-de-viagens" />
+
+  <link rel="icon" href="favico.svg" type="xml/svg" />
   <link rel="stylesheet" href="./css/style.css" />
+
   <title>Jornada Viagens</title>
-  <meta name="description"
-    content="Agência de viagens especializada em criar experiências inesquecíveis. Confira nossos pacotes e destinos populares!" />
-  <meta name="keywords" content="viagens, pacotes de viagem, destinos populares, agência de viagens" />
 </head>
 
 <body>
-  <header class="header-destinations">
+  <header class="main-header">
     <a class="logo" href="index.html" title="voltar para a página inicial">
-
-      <img class="logo-mobile" src="img/Logo-provisória-branca 1.png"
+      <img class="img-mobile" src="img/bussola-jornada-branco.png"
         alt="Bussola do logo Jornada Viagens na cor branca" />
-      <img class="logo-desktop" src="img/Bussola-logo-provisória-branca 1 (1).png"
-        alt="Logo Jornada Viagens na cor branca" /> </a>
+      <img class="img-desktop" src="img/bussola-texto-jornada-branco.png" alt="Logo Jornada Viagens na cor branca" />
+    </a>
     <div class="navigation-menu">
       <label for="menu">
         <img src="img/menu.png" alt="menu" />
@@ -37,7 +36,7 @@
             <a href="blog.html" target="_blank" title="Acessar Blog">Blog</a>
           </li>
           <li>
-            <a href="pacotes.html" target="_blank" title="Acessar Pacotes de viagem">Pacotes de viagem</a>
+            <a href="pacotes-de-viagens.html" target="_blank" title="Acessar Pacotes de viagem">Pacotes de viagem</a>
           </li>
           <li>
             <a href="contato.html" target="_blank" title="Acessar Contato">Contato</a>
@@ -47,7 +46,7 @@
     </div>
   </header>
   <section class="hero">
-    <div class="hero-img" role="img" aria-label="Imagem de destaque da agência de viagens"></div>
+    <div class="hero-img"></div>
     <h2>
       Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino
       à seleção das atividades, cuidamos de todos os detalhes para que você
@@ -62,51 +61,54 @@
     <div class="offers-cards">
       <article class="card japao">
         <header>
-          <p>HOTEL+AEREO</p>
+          <p>HOTEL+AÉREO</p>
+          <h3>
+            Japão <br />
+            <span>R$ 4000</span>
+          </h3>
         </header>
-        <section>
-          <h3>Japao<br /><span>R$ 4000</span></h3>
-        </section>
         <footer>
-          <a href="#" class="button" title="Ver detalhes do pacote para o Japão">Ver Detalhes</a>
+          <a href="#" class="button">Ver detalhes</a>
         </footer>
       </article>
       <article class="card san-andreas">
         <header>
-          <p>HOTEL+AEREO</p>
+          <p>HOTEL+AÉREO</p>
+          <h3>
+            San Andreas <br />
+            <span>R$ 3000</span>
+          </h3>
         </header>
-        <section>
-          <h3>San Andreas<br /><span>R$ 3000</span></h3>
-        </section>
         <footer>
-          <a href="#" class="button">Ver Detalhes</a>
+          <a href="#" class="button">Ver detalhes</a>
         </footer>
       </article>
       <article class="card paraiba">
         <header>
-          <p>HOTEL+AEREO</p>
+          <p>HOTEL+AÉREO</p>
+          <h3>
+            Paraíba <br />
+            <span>R$ 1200</span>
+          </h3>
         </header>
-        <section>
-          <h3>Paraíba<br /><span>R$ 1200</span></h3>
-        </section>
         <footer>
-          <a href="#" class="button">Ver Detalhes</a>
+          <a href="#" class="button">Ver detalhes</a>
         </footer>
       </article>
       <article class="card manaus">
         <header>
-          <p>HOTEL+AEREO</p>
+          <p>HOTEL+AÉREO</p>
+          <h3>
+            Manaus <br />
+            <span>R$ 1600</span>
+          </h3>
         </header>
-        <section>
-          <h3>Manaus<br /><span>R$ 1600</span></h3>
-        </section>
         <footer>
-          <a href="#" class="button">Ver Detalhes</a>
+          <a href="#" class="button">Ver detalhes</a>
         </footer>
       </article>
     </div>
   </section>
-  <br />
   <section class="categories">
     <div class="section-title">
       <h2>Busque por Categoria</h2>
@@ -114,31 +116,30 @@
     </div>
     <div class="categories-cards">
       <a class="card" href="#" target="_blank" title="Busque pela categoria Pacotes Nacionais">
-        <img src="img/ícone - pacotes nacionais.png" alt="Ícone representando pacotes nacionais" />
+        <img src="img/icone-caminhada.png" alt="ícone cinza representando uma pessoa fazendo tracking" />
         <h3 class="content-title">
-          Pacotes <br />
+          Pacotes<br />
           Nacionais
         </h3>
       </a>
 
       <a class="card" href="#" target="_blank" title="Busque pela categoria Pacotes Internacionais">
-        <img src="img/ícone - pacotes interacionais.png" alt="ícone cinza representando um avião" />
+        <img src="img/icone-aviao.png" alt="ícone cinza representando um avião" />
         <h3 class="content-title">
           Pacotes <br />
           Internacionais
         </h3>
       </a>
       <a class="card single-line transfer" href="#" target="_blank" title="Busque pela categoria Transfer">
-        <img src="img/ícone -transfer.png" alt="ícone cinza representando um ônibus" />
+        <img src="img/icone-onibus.png" alt="ícone cinza representando um ônibus" />
         <h3 class="content-title">Transfer</h3>
       </a>
       <a class="card single-line" href="#" target="_blank" title="Busque pela categoria Seguro Viagem">
-        <img src="img/ícone - seguro viagem.png" alt="ícone cinza representando o planeta terra com um cadeado" />
+        <img src="img/icone-planeta.png" alt="ícone cinza representando o planeta terra com um cadeado" />
         <h3 class="content-title">Seguro Viagem</h3>
       </a>
     </div>
   </section>
-  <br />
   <section class="destinations">
     <div class="section-title">
       <h2>Destinos Populares</h2>
@@ -148,9 +149,9 @@
       <article class="item tokyo">
         <header>
           <div class="img-item"></div>
-          <h4>Tokyo</h4>
+          <h3 class="content-title">Tokyo</h3>
         </header>
-        <p>
+        <p class="content-text">
           Tóquio é uma cidade vibrante e cosmopolita, com seus templos
           históricos, museus de arte moderna e arranha-céus icônicos. Não
           perca a chance de mergulhar em sua atmosfera fascinante.
@@ -162,9 +163,9 @@
       <article class="item osaka">
         <header>
           <div class="img-item"></div>
-          <h4>Osaka</h4>
+          <h3 class="content-title">Osaka</h3>
         </header>
-        <p>
+        <p class="content-text">
           Osaka é uma cidade agitada e moderna no Japãos. A cidade é famosa
           por sua gastronomia deliciosa e por ser um excelente ponto de
           partida para explorar outras cidades japonesas próximas.
@@ -175,7 +176,6 @@
       </article>
     </div>
   </section>
-  <br>
   <section class="payments">
     <div class="section-title">
       <h2>Condições de Pagamento</h2>
@@ -196,8 +196,7 @@
       </div>
     </div>
   </section>
-  <br>
-  <section class="testimonial">
+  <section class="testimonials">
     <div class="section-title">
       <h2>Depoimentos</h2>
       <hr />
@@ -212,7 +211,7 @@
           </p>
         </header>
         <footer>
-          <img src="img/talita-perfil.png" alt="imagem de perfil da cliente Talita Villas Boas" />
+          <img src="img/avatar-talita.png" alt="imagem de perfil da cliente Talita Villas Boas" />
           <div class="profile-content">
             <h3>Talita Villas Boas</h3>
             <div class="rating">
@@ -234,7 +233,7 @@
           </p>
         </header>
         <footer>
-          <img src="img/amari-perfil.png" alt="imagem de perfil do cliente Amari Salin" />
+          <img src="img/avatar-amari.png" alt="imagem de perfil do cliente Amari Salin" />
           <div class="profile-content">
             <h3>Amari Salin</h3>
             <div class="rating">
@@ -255,7 +254,7 @@
           </p>
         </header>
         <footer>
-          <img src="img/lauro-perfil.png" alt="imagem de perfil do cliente Lauro B. Matos" />
+          <img src="img/avatar-lauro.png" alt="imagem de perfil do cliente Lauro B. Matos" />
           <div class="profile-content">
             <h3>Lauro B. Matos</h3>
             <div class="rating">
@@ -270,28 +269,28 @@
       </article>
     </div>
   </section>
-  <br>
-  <section class="hero-footer">
-    <div class="hero-img" role="img" aria-label="Imagem de destaque da agência de viagens"></div>
-    <footer class="main-footer">
-      <div class="footer-content">
-        <img src="./img/Logo-jornada-viajens.png" alt="logo jornada viagens" />
-        <p>Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
-        <p>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
-      </div>
-      <div class="footer-social">
-        <p>Acesse nossas redes:</p>
-        <a href="#" target="_blank" title="Acesse o Twitter do Jornada Viagens"><img src="img/Twiter 1.png"
-            alt="icone do Twitter na cor branca" /></a>
-
-        <a href="#" target="_blank" title="Acesse o Instagram do Jornada Viagens"><img src="img/Instragam 1.png"
-            alt="icone do Instagram na cor branca" /></a>
-
-        <a href="#" target="_blank" title="Entre em contato através do whatsapp"><img src="img/Whatsapp 1.png"
-            alt="icone do whatsapp na cor branca" /></a>
-      </div>
-    </footer>
+  <section class="bottom-hero">
+    <div class="hero-img"></div>
   </section>
+  <footer class="main-footer">
+    <div class="footer-content">
+      <img src="img/logo-footer.png" alt="logo completo Jornada Viagens" />
+      <p>Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
+      <p>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
+    </div>
+    <div class="footer-social">
+      <p>Acesse nossas redes:</p>
+
+      <a href="#" target="_blank" title="Acesse o Twitter do Jornada Viagens"><img src="img/icone-twitter.svg"
+          alt="icone do Twitter na cor branca" /></a>
+
+      <a href="#" target="_blank" title="Acesse o Instagram do Jornada Viagens"><img src="img/icone-instagram.svg"
+          alt="icone do Instagram na cor branca" /></a>
+
+      <a href="#" target="_blank" title="Entre em contato através do whatsapp"><img src="img/icone-whatsapp.svg"
+          alt="icone do whatsapp na cor branca" /></a>
+    </div>
+  </footer>
 </body>
 
 </html>

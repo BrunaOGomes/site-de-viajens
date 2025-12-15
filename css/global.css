@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Montserrat";
-  src: url(../site-de-viajens/fonts/Fjalla_One\Montserrat\Work_Sans/);
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
   font-style: normal;
   font-display: swap;
 }
@@ -37,13 +37,25 @@ button {
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  font-family: "Montserrat", sans-serif;
-  background-color: var(--background-primary-color);
+  font-family: "Montserrat";
   color: var(--text-primary-color);
 }
-h1 {
-  color: var(--text-primary-color);
+
+section {
+  width: 312px;
+  margin: 0 auto 88px;
+}
+
+section.hero,
+section.bottom-hero {
+  width: 100%;
+  margin: 0;
+}
+.section-title {
+  width: 280px;
+  margin: 0 auto 32px;
 }
 .section-title h2 {
   font-size: 28px;
@@ -52,14 +64,13 @@ h1 {
   text-align: center;
 }
 .section-title hr {
-  text-align: center;
   width: 180px;
   height: 4px;
+  background-color: var(--secondary-color);
   border: none;
-  background-color: var(--primary-color);
-  margin-top: 16px auto 32px;
-  border-radius: 16px;
+  margin: 16px auto 32px;
 }
+
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);
@@ -70,24 +81,44 @@ h1 {
   font-weight: var(--text-weight);
   line-height: 32px;
 }
+
 .button {
-  display: inline-block;
-  text-decoration: none;
-  width: 280px;
+  min-width: 280px;
   height: 64px;
   color: var(--text-secondary-color);
   font-weight: var(--title-weight);
   font-size: 20px;
-  text-align: center;
   background-color: var(--secondary-color);
+  border-radius: 16px;
+  display: inline-block;
+  text-decoration: none;
   line-height: 64px;
+  text-align: center;
 }
-.button:hover {
-  background-color: var(--primary-color);
-}
+
 @media screen and (min-width: 768px) {
+  section {
+    width: 648px;
+  }
+  .section-title {
+    width: 100%;
+  }
   .section-title h2 {
     font-size: 32px;
-    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  section {
+    width: 900px;
+  }
+  .button:hover {
+    background-color: var(--primary-color);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section {
+    width: 1200px;
   }
 }
